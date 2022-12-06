@@ -7,6 +7,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.io.FileNotFoundException;
 
+/**
+ * 非public 方法导致的事务失效
+ */
 @Service
 public class Service4 {
 

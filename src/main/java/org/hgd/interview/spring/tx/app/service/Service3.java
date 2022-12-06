@@ -8,6 +8,9 @@ import org.springframework.transaction.annotation.Transactional;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+/**
+ * aop 切面顺序导致导致事务不能正确回滚
+ */
 @Service
 public class Service3 {
 

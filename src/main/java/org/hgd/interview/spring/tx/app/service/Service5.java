@@ -7,6 +7,9 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.io.FileNotFoundException;
 
+/**
+ * 父子容器导致的事务失效
+ */
 @Service
 public class Service5 {
 
